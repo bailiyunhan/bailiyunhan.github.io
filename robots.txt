@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bailiyunhan.github.io/sitemap.xml
