@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bailiyunhan 的个人主页 | 项目 · 记录 · 联系方式</title>
+  <meta name="description" content="Bailiyunhan 的个人主页：展示我的项目作品、兴趣方向和联系方式，欢迎交流。">
+  <meta name="keywords" content="bailiyunhan, 个人主页, 项目作品, 联系方式">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bailiyunhan.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bailiyunhan 的个人主页">
+  <meta property="og:description" content="展示我的项目作品、兴趣方向和联系方式。">
+  <meta property="og:url" content="https://bailiyunhan.github.io/">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1a1d21;
+      --muted: #6b7280;
+      --accent: #4f6ef7;
+      --accent2: #9b59f5;
+      --border: #e5e7eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --text: #e6e8eb;
+        --muted: #9aa1ab;
+        --border: #262b33;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px 64px; }
+    header {
+      text-align: center;
+      padding: 72px 0 48px;
+    }
+    .avatar {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 40px; font-weight: 700; color: #fff;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 8px 28px rgba(79, 110, 247, .35);
+    }
+    h1 { font-size: 30px; letter-spacing: .5px; }
+    .tagline { color: var(--muted); margin-top: 8px; font-size: 16px; }
+    .links { margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .links a {
+      color: var(--accent); text-decoration: none;
+      border: 1px solid var(--border); border-radius: 999px;
+      padding: 6px 18px; font-size: 14px; background: var(--card);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .links a:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+    section { margin-top: 40px; }
+    h2 {
+      font-size: 20px; margin-bottom: 16px;
+      padding-left: 12px; border-left: 4px solid var(--accent);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 14px;
+    }
+    .card h3 { font-size: 17px; margin-bottom: 6px; }
+    .card p { color: var(--muted); font-size: 15px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+    footer {
+      margin-top: 72px; text-align: center;
+      color: var(--muted); font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">B</div>
+      <h1>Bailiyunhan</h1>
+      <p class="tagline">在这里记录我的项目与想法 🚀</p>
+      <nav class="links">
+        <a href="https://github.com/bailiyunhan" target="_blank" rel="noopener">GitHub</a>
+        <a href="#about">关于我</a>
+        <a href="#projects">我的项目</a>
+        <a href="#contact">联系我</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>关于我</h2>
+      <div class="card">
+        <p>你好，我是 Bailiyunhan。这里是我的个人主页。我对技术感兴趣，平时喜欢折腾各种新工具、做一些小项目。这个网站用来集中展示我的作品和想法。</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>我的项目</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🧰 项目一（占位）</h3>
+          <p>项目简介：这是一个占位卡片，告诉我你的真实项目，我帮你替换。</p>
+        </div>
+        <div class="card">
+          <h3>📝 项目二（占位）</h3>
+          <p>项目简介：可以放你做过的工具、写过的文章，或者任何想展示的东西。</p>
+        </div>
+        <div class="card">
+          <h3>🎯 项目三（占位）</h3>
+          <p>项目简介：支持放链接、配图，样式都会自动排好。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>联系我</h2>
+      <div class="card">
+        <p>邮箱：2977949560@qq.com</p>
+        <p>GitHub：<a href="https://github.com/bailiyunhan" target="_blank" rel="noopener">github.com/bailiyunhan</a></p>
+      </div>
+    </section>
+
+    <footer>© 2026 Bailiyunhan · 托管于 GitHub Pages</footer>
+  </div>
+</body>
+</html>
